@@ -11,6 +11,11 @@
 
   @include mq(736px) {
     flex-direction: column;
+    box-shadow :none
+  }
+
+  @media screen and (max-width: 736px) {
+    border-radius: 10px; // Apply a different border-radius for smaller screens
   }
 
   .resultDiv {
@@ -141,6 +146,7 @@
     @include mq(736px) {
       padding-top: 24px;
       padding-bottom: 30px;
+      
     }
 
     .rightList {
