@@ -1,0 +1,31 @@
+@mixin mq($size) {
+  @media screen and (max-width: $size) {
+    @content;
+  }
+}
+body {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  margin: 0;
+  font-family: 'Hanken Grotesk', sans-serif;
+  background: #ecf2ff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
